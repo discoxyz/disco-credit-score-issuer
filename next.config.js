@@ -6,5 +6,6 @@ module.exports = {
   },
   env: {
     DISCO_API_KEY: process.env.DISCO_API_KEY,
+    CREDPROTOCOL_API_KEY: process.env.CREDPROTOCOL_API_KEY,
   }
 };

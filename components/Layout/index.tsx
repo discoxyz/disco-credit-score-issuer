@@ -53,7 +53,7 @@ export default function Layout(props: Props) {
   return (
     <div>
       <Head>
-        <title>Disco GM Faucet </title>
+        <title> Cred Protocol x Disco Integration </title>
         <meta name="description" content="Disco Wagmi Template" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -67,7 +67,7 @@ export default function Layout(props: Props) {
         <div className="flex items-center justify-between p-4">
           <div className="flex items-center">
             <h4 className="text-2xl font-bold text-white cursor-default">
-              Disco GM Faucet
+            Cred Protocol x Disco Integration
             </h4>
           </div>
           {renderButton()}
