@@ -1,18 +1,15 @@
-# Disco GM Faucet Demo 🕺🔮
+# Disco x Cred Protocol Digital Asset Score Demo 🕺🔮
 
 <!-- ### Check out the live demo 👉 [NextJS wagmi](https://nextjs-wagmi.vercel.app/) -->
 
 ## Overview
-This demo showcases the process of programmatic issuance to a Disco Data Backpack via an Ethereum (ETH) address using Next, React, and Tailwinds CSS.
-
-Users can connect their wallet and click a button to receive a GM Verifiable Credential issued by Disco. 
-
+Simple next.js app which pings the [Cred Protocol](https://www.credprotocol.com/) API and fetches details about an account's on-chain score (value + value rating), and issues this as a Digital Asset [Credential](https://raw.githubusercontent.com/discoxyz/disco-schemas/main/json/DigitalAssetScoreCredential/1-0-0.json) to the connected wallet's Disco Data Backpack.
 
 ## How to use this template
 
 ### 1. Clone this app
 ```
-git clone https://github.com/discoxyz/programmatic-issuance-demo.git
+git clone https://github.com/discoxyz/.git
 ```
 
 ### 2. Install Dependencies
@@ -34,7 +31,7 @@ DISCO_API_KEY=<insert api key>
 In index.ts, replace the following line with the schema URL of your choice. If there is metadata, pass in a `subjectData: {}` JSON object as the third argument to issueCredential.
 
 ```javascript
-55 const schemaUrl = 'https://raw.githubusercontent.com/discoxyz/disco-schemas/main/json/GMCredential/1-0-0.json';
+55 const schemaUrl = 'https://raw.githubusercontent.com/discoxyz/disco-schemas/main/json/DigitalAssetScoreCredential/1-0-0.json';
 ```
 All schemas can be found here: https://github.com/discoxyz/disco-schemas.
 
