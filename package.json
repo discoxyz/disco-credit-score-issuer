@@ -1,6 +1,5 @@
 {
   "name": "nextjs-wagmi",
-  "private": true,
   "scripts": {
     "dev": "PORT=3006 next dev",
     "build": "next build",
